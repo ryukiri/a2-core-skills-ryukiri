@@ -114,7 +114,7 @@
 # You should utilize your `MakeIntroduction()` function from Part 1!
 
 
-# Create a variable `my.bday.intro` by calling your `MakeBirthdayIntro` function and passing in your `my.name`, `my.age`, and your birthday.
+# Create a variable `my.bday.intro` by calling your `MakeBirthdayIntro` function and passing in `my.name`, `my.age`, and your birthday.
 
 
 # Challenge ------------------------------------------------------------------
