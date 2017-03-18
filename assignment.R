@@ -41,10 +41,11 @@
 # Create a new variable `quiet.intro`, which is your `my.intro` variable in all lower-case letters
 
 
-# Create a new variable capitalized, which is your `my.intro` variable with each word capitalized (hint: use the stringr function `str_to_title`)
+# Create a new variable capitalized, which is your `my.intro` variable with each word capitalized 
+# hint: use the stringr function `str_to_title`
 
 
-# Using the stringr `str_count` function, create a variable `occurrences` that stores the number of times the letter "e" appears in your `my.intro` variable
+# Using the `str_count` function, create a variable `occurrences` that stores the # of times the letter "e" appears in `my.intro`
 
 
 # Write another function `Double` that takes in a variable and returns that variable times two
@@ -67,7 +68,8 @@
 # Create a vector `top.three` that only contains the first three movies in the vector
 
 
-# Using your vector and the paste method, create a vector `excited` that adds the phrase " is a great movie!" to the end of each element in your movies vector
+# Using your vector and the paste method, create a vector `excited` that adds the phrase -
+# " is a great movie!" to the end of each element in your movies vector
 
 
 # Create a vector `without.four` that has your first three movies, and your 5th and 6th movies.
@@ -105,14 +107,14 @@
 # Create a variable `days.to.break` that is how many days until break (hint: subtract the dates!)
 
 
-# Define a function called `MakeBirthdayIntro` that takes in three arguments: a name, an age, and a character string for an upcoming birthday.
+# Define a function called `MakeBirthdayIntro` that takes in three arguments: 
+# a name, an age, and a character string for an upcoming birthday.
 # This method should return a character string of the format:
 #  "Hello, my name is {name} and I'm {age} years old. In {N} days I'll be {new.age}" 
-# (replacing {name} and {age} with the arguments, {N} with the number of days until their birthday, and {new.age} with how old they will be).
 # You should utilize your `MakeIntroduction()` function from Part 1!
 
 
-# Create a variable `my.bday.intro` by calling your `MakeBirthdayIntro` function and passing in your name (already a variable!), age (already a variable!), and birthday.
+# Create a variable `my.bday.intro` by calling your `MakeBirthdayIntro` function and passing in your `my.name`, `my.age`, and your birthday.
 
 
 # Challenge ------------------------------------------------------------------
