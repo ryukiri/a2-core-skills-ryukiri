@@ -15,7 +15,7 @@
 # Using multiplication, create a variable `minutes.in.a.day` that is equal to the number of minutes in a day
 
 
-# Using multiplication, create a variable `hours.in.a.month` that is the number of seconds in a week
+# Using multiplication, create a variable `hours.in.a.year` that is the number of hours in a year
 
 
 # Create a variable `more.minutes.than.hours` that is a boolean value (TRUE/FALSE)
