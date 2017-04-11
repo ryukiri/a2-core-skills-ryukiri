@@ -130,9 +130,11 @@ my.bday.intro <- MakeBirthdayIntro(my.name, my.age, as.Date("2017.12.23", format
 
 # Challenge ------------------------------------------------------------------
 # Write a function `RemoveDigits` that will remove all digits (i.e., 0 through 9) from all elements in a *vector of strings*. 
-
+RemoveDigits <- function(c2) {
+  answer = gsub('[[:digit:]]+', "", c2)
+  return (answer)
+}
 
 # Demonstrate that your approach is successful by passing a vector of courses to your function
 # For example, RemoveDigits(c("INFO 201", "CSE 142"))
-
-             
+RemoveDigits(c("INFO 201", "CSE 142"))
