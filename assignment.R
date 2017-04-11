@@ -1,10 +1,10 @@
 # a2-foundational-skills
 
-
 # Set up and Defining variables -----------------------------------------------------------------
 
 # Install and load the the `stringr` package, which has a variety of built in functions that make working with string variables easier.
 install.packages("stringr")
+library(stringr)
 
 # Create a numeric variable `my.age` that is equal to your age
 my.age <- 20 #years
@@ -35,7 +35,7 @@ MakeIntroduction <- function(name, age) {
 my.intro <- MakeIntroduction(my.name, my.age);
 
 # Create a variable `casual.intro` by substituting "Hello, my name is ", with "Hey, I'm" in your `my.intro` variable 
-casual.intro <- paste("Hey, I'm ", my.name, ", and I'm ", age, "years old. ");
+casual.intro <- paste("Hey, I'm ", my.name, ", and I'm ", my.age, "years old. ");
 
 # Create a new variable `loud.intro`, which is your `my.intro` variable in all upper-case letters
 loud.intro <- toupper(my.intro)
@@ -120,13 +120,13 @@ days.to.break <- summer.break - today
 # This method should return a character string of the format:
 #  "Hello, my name is {name} and I'm {age} years old. In {N} days I'll be {new.age}" 
 # You should utilize your `MakeIntroduction()` function from Part 1!
-MakeBirthdayIntroduction <- function(name, age, birthday) {
+MakeBirthdayIntro <- function(name, age, birthday) {
   intro <- paste(MakeIntroduction(name, age), "In", as.Date(birthday, format = "%Y.%m.%d")-today, "days I'll be", age+1);
   return(intro)
 }
 
 # Create a variable `my.bday.intro` by calling your `MakeBirthdayIntro` function and passing in `my.name`, `my.age`, and your birthday.
-my.bday.intro <- MakeBirthdayIntro(my.name, my.age, my.birthday)
+my.bday.intro <- MakeBirthdayIntro(my.name, my.age, as.Date("2017.12.23", format = "%Y.%m.%d"))
 
 # Challenge ------------------------------------------------------------------
 # Write a function `RemoveDigits` that will remove all digits (i.e., 0 through 9) from all elements in a *vector of strings*. 
